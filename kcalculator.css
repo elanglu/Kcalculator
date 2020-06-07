@@ -1,3 +1,6 @@
 html {margin: 0; background-color: hotpink;}
 body {font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif; font-size: 100%; margin: 0; }
+.kcal-contenedor {width: auto;}
+.kcal-logo {margin-left: 10px;}
 #header {height: auto; background-color: green; margin: 0px;}
+#buscador {width: 25%;}
