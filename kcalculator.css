@@ -1,9 +1,9 @@
 html {margin: 0; background-color: hotpink;}
 body {font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif; font-size: 100%; margin: 0; }
-.kcal-contenedor {width: 100%;}
-.kcal-logo {margin-left: 10px; letter-spacing: 4px; width: 25%;}
-.kcal-buscador {width: 50%; background-color: blue; }
-.kcal-usuario {margin-right: 10px;}
-#header {width: auto; height: auto; background-color: green; margin: 0px;}
+.kcal-header-top {width: 50%; background-color: aqua;}
+.kcal-frame-logo {margin-left: 10px; letter-spacing: 4px; width: 25%; height: 90%; font-weight: bold; font-size: 100%;}
+.kcal-frame-search {width: 50%; background-color: blue; }
+.kcal-frame-user {margin-right: 10px;}
+
 #buscador {width: 50%; margin-left: 25%;}
 #user-logo {width: 150px; height: 100px; margin-right: 0px;}
