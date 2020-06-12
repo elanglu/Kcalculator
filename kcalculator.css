@@ -1,9 +1,83 @@
-html {margin: 0; background-color: hotpink;}
-body {font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif; font-size: 100%; margin: 0; }
-.kcal-header-top {width: 50%; background-color: aqua;}
-.kcal-frame-logo {margin-left: 10px; letter-spacing: 4px; width: 25%; height: 90%; font-weight: bold; font-size: 100%;}
-.kcal-frame-search {width: 50%; background-color: blue; }
-.kcal-frame-user {margin-right: 10px;}
+html 
+{
+    margin: 0; 
+    background-color: hotpink;
+}
+body 
+{
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif; 
+    margin: 0; 
+}
 
-#buscador {width: 50%; margin-left: 25%;}
-#user-logo {width: 150px; height: 100px; margin-right: 0px;}
+.kcal-header
+{
+    margin: 0;
+    width: 100%;
+    height: 125px;
+    background-color: chartreuse;
+}
+.kcal-header-main 
+{
+    margin: 0 auto;
+    height: 55%;
+    width: 100%; 
+    background-color: aqua; 
+}
+.kcal-header-main div
+{
+    float: left; 
+/*    display: inline-block; */
+}
+.kcal-frame-logo 
+{
+    margin: 0;
+    height: 100%;
+    width: 25%;
+    
+    background-color: brown;
+}
+.kcal-frame-logo a
+{
+    padding-left: 10px;
+    padding-top: 25px;
+    margin-top: 25px;
+    bottom: 0px;
+    letter-spacing: 4px;
+    font-weight: bold; 
+    font-size: 120%; 
+}
+.kcal-frame-search 
+{   
+    margin: 0;
+    height: 100%;
+    width: 50%;
+    text-align: center;
+    background-color: blue; 
+}
+.kcal-frame-user 
+{
+    height: 100%;
+    margin: 0;
+    width: 25%;
+    text-align: right;
+    background-color: coral;
+}
+.kcal-user-logo
+{
+    float: right; 
+    width: 60px; 
+    height: 60px; 
+/*    position: absolute;
+    right: 10px;
+    bottom: 10px;
+    margin-right: 10px;*/
+}
+.kcal-user-logo img
+{
+    width: inherit;
+    height: inherit;
+}
+.buscador 
+{
+    width: 50%; 
+}
